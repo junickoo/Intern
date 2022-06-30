@@ -1,5 +1,6 @@
 package com.simar.transaction_type.DAO;
 
+import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
@@ -15,7 +16,7 @@ public class TransactionTypeDAO {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    public HashMap<String,Object> getTransactionType(String username) {
+    public HashMap<String, Object> getTransactionType(String username) {
 
         SimpleJdbcCall simpleJdbcCall = new SimpleJdbcCall(jdbcTemplate).withProcedureName("GET_ARC_TRANSACTION_TYPE_RAYHAN");
 
