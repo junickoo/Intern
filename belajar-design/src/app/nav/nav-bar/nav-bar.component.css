@@ -1,10 +1,17 @@
 body {
   font-family: "Inter", sans-serif;
 }
+@keyframes active {
+  0% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .navbar {
   background-color: transparent;
   padding-top: 50px;
-  margin-bottom: 155px;
 }
 .navbar-brand {
   background-color: #cdfff3;
@@ -20,9 +27,17 @@ body {
   font-size: 16px;
   color: white;
   opacity: 60%;
+  animation: active;
+  animation-duration: 2s;
   margin-left: -500px;
 }
-
+.nav-link:hover {
+  transition: all 1s;
+  opacity: 100%;
+}
+.link-active {
+  opacity: 100%;
+}
 .btn {
   color: white;
   background-color: #2ba386;

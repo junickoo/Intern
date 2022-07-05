@@ -1,21 +1,48 @@
 .header-text {
   font-size: 40px;
-  width: 15ch;
+  width: 17ch;
   font-weight: 300;
   line-height: 54px;
 }
+.content-section {
+  padding-top: 170px;
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes leftin {
+  0% {
+    right: -300px;
+    opacity: 0;
+  }
+  100% {
+    right: 0px;
+    opacity: 1;
+  }
+}
 p {
   color: white;
+  animation: fade;
+  animation-duration: 2s;
+}
+.header-text {
+  animation: fade;
+  animation-duration: 4s;
 }
 .header-text b {
-  font-weight: 600;
+  font-weight: 700;
 }
 .paragraph-text {
   font-weight: 200;
   letter-spacing: 0.5px;
   font-size: 20px;
   width: 40ch;
-  opacity: 60%;
+  color: rgba(255, 255, 255, 0.6);
   line-height: 30px;
 }
 .arrow {
@@ -32,7 +59,7 @@ p {
   margin: 60px 0px;
 }
 .detail-header {
-  opacity: 60%;
+  color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 3px;
@@ -46,6 +73,8 @@ p {
 .content-image img {
   width: 95%;
   position: absolute;
+  animation: leftin;
+  animation-duration: 2s;
 }
 .right-content {
   position: relative;

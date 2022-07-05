@@ -1,0 +1,54 @@
+p {
+  color: white;
+  opacity: 100%;
+}
+.col-lg-6 {
+  margin-top: 50px;
+}
+.left-content-row {
+  position: relative;
+}
+.content-title {
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 54;
+}
+.title-background p {
+  font-size: 100px;
+  font-weight: 800;
+  opacity: 3%;
+}
+.title-background {
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -5px;
+}
+.main-content {
+  width: 40ch;
+  opacity: 60%;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.right-content {
+  position: relative;
+}
+.content-image {
+  margin-left: 150px;
+  margin-top: 80px;
+  position: absolute;
+}
+.content-image img {
+  width: 100%;
+}
+.contact-title {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  opacity: 60%;
+}
+.contact-content {
+  margin-top: -20px;
+  font-weight: 700;
+  font-size: 20px;
+}
