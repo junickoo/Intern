@@ -1,6 +1,24 @@
 package com.simar.peminjaman.Model;
 
+import org.apache.logging.log4j.message.Message;
+import org.springframework.validation.annotation.Validated;
+import javax.persistence.Entity;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
+
+@Entity
 public class Peminjaman {
+    String archiveId;
+    String loginName;
+
+    @NotEmpty(message = "Address")
+    String address;
+    @NotEmpty(message = "Service Type")
+    String serviceType;
+    @NotEmpty(message = "Creator Phone")
+    String creatorPhone;
+    @NotEmpty(message = "Reason")
+    String reason;
     public String getArchiveId() {
         return archiveId;
     }
@@ -49,11 +67,5 @@ public class Peminjaman {
         this.reason = reason;
     }
 
-    String archiveId;
-    String loginName;
-    String address;
-    String serviceType;
-    String creatorPhone;
-    String reason;
 
 }
