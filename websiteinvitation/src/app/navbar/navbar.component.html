@@ -1,0 +1,31 @@
+<body>
+  <div class="hamburger">
+    <input type="checkbox" class="hamburger-button" (click)="onKey()" />
+    <label class="hamburger-icon">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </label>
+  </div>
+  <nav
+    class="navbar"
+    [ngStyle]="{
+      opacity: check
+    }"
+  >
+    <div class="nav-grid">
+      <ul>
+        <li class="nav-list"><a href="">Schedule</a></li>
+        <li class="nav-list"><a href="">Parents</a></li>
+        <li class="nav-list"><a href="">History</a></li>
+        <li class="nav-list"><a href="">Registration</a></li>
+      </ul>
+      <div class="dividerline">
+        <div class="linedot"></div>
+      </div>
+      <div class="hashtag">
+        <p>#Putwogether</p>
+      </div>
+    </div>
+  </nav>
+</body>

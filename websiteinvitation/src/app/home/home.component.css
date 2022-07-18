@@ -1,0 +1,23 @@
+* {
+  color: #fcd0a1;
+  font-weight: 100;
+}
+h1,
+h2,
+h3 {
+  line-height: 0%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 120em;
+  min-height: 60em;
+}
+.text-content {
+}
+.text-content > h1 {
+  font-size: 3.5em;
+  font-weight: 100;
+}

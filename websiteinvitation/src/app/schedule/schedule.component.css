@@ -1,0 +1,45 @@
+body {
+  max-width: 120em;
+  min-height: 65em;
+}
+h1,
+h2,
+h3,
+p {
+  color: #fcd0a1;
+  font-weight: 100;
+}
+.title > h1 {
+  text-align: center;
+  font-size: 3.5em;
+  line-height: 30%;
+}
+.title > hr {
+  width: 60%;
+  height: 3px;
+  background-color: #fcd0a1;
+  border: #fcd0a1;
+}
+.linedot {
+  position: absolute;
+  left: 50%;
+  margin-top: -0.25%;
+  background-color: #fcd0a1;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+.event > p {
+  line-height: 0%;
+}
+.container {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+.event h1 {
+  min-width: 16em;
+}
+.c1 {
+  margin: 1em 0;
+}

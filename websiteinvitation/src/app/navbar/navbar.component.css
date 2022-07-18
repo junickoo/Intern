@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding-right: 0%;
+}
+.line {
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #fcd0a1;
+  border-radius: 6px;
+  transition: all 1s;
+}
+input {
+  position: absolute;
+  margin-left: -20%;
+  margin-top: -7%;
+  width: 140%;
+  height: 120%;
+  opacity: 0;
+  z-index: 1;
+}
+@keyframes leftout {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 100%;
+    opacity: 0;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes rightin {
+  0% {
+    right: 100%;
+    opacity: 0;
+  }
+  100% {
+    right: 0%;
+    opacity: 1;
+  }
+}
+input:checked ~ label span:nth-child(2) {
+  animation: leftout 1s;
+  animation-fill-mode: forwards;
+}
+input:checked ~ label span:first-child {
+  transform: rotate(405deg);
+  top: 0.5em;
+}
+input:checked ~ label span:last-child {
+  transform: rotate(-405deg);
+  top: 0em;
+}
+.hamburger input:checked ~ nav {
+  opacity: 1;
+}
+input ~ label span:nth-child(2) {
+  animation: rightin 1s;
+  animation-fill-mode: forwards;
+}
+.hamburger-icon > span:nth-child(2) {
+  top: 0.3em;
+}
+.hamburger-icon > span:last-child {
+  top: 0.6em;
+}
+span {
+  animation: fadein 1s;
+}
+.hamburger {
+  float: right;
+  position: relative;
+  min-width: 3em;
+  z-index: 1;
+  margin-top: 2em;
+  margin-right: 2em;
+}
+span {
+  position: relative;
+}
+.hamburger-icon {
+  padding: 0.5em;
+}
+p {
+  color: #fcd0a1;
+}
+.nav-grid {
+  justify-content: center;
+  align-items: center;
+  gap: 15em;
+  background: #222d44;
+  min-width: 100%;
+  position: fixed;
+  display: flex;
+  height: 100%;
+  transition: all 2s;
+}
+.navbar {
+  transition: all 1s;
+}
+ul {
+  list-style: none;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #fcd0a1;
+  font-size: 3.5em;
+}
+.hashtag > p {
+  font-size: 3.5em;
+}
+ul > .nav-list:nth-child(3) {
+  margin: 1em 0px;
+}
+ul > .nav-list:nth-child(2) {
+  margin: 1em 0px;
+}
+.dividerline {
+  display: flex;
+  justify-content: center;
+  width: 5px;
+  height: 45%;
+  background-color: #fcd0a1;
+  border-radius: 6px;
+}
+.linedot {
+  position: absolute;
+  top: 48%;
+  background-color: #fcd0a1;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1100px) {
+  .nav-list a {
+    font-size: 2em;
+  }
+  .nav-grid {
+    gap: 5em;
+  }
+  .dividerline {
+    width: 3px;
+  }
+  .linedot {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .nav-list a {
+    font-size: 1.5em;
+  }
+  .hashtag > p {
+    font-size: 1.5em;
+  }
+  .dividerline {
+    width: 2px;
+    height: 20%;
+  }
+  .linedot {
+    display: none;
+  }
+  .nav-grid {
+    gap: 1em;
+  }
+} ;
