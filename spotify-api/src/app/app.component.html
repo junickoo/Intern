@@ -1,0 +1,18 @@
+<a
+  [href]="
+    this.AUTH_ENDPOINT +
+    '?client_id=' +
+    this.CLIENT_ID +
+    '&scope=' +
+    scopes +
+    '&redirect_uri=' +
+    this.REDIRECT_URI +
+    '&response_type=' +
+    this.RESPONSE_TYPE
+  "
+  >Login</a
+>
+<button (click)="getUser()">Get User</button>
+<button (click)="toplist()">Get List</button>
+<button (click)="artistList()">By Top Artist</button>
+<button (click)="playlistCreate()">Playlist</button>

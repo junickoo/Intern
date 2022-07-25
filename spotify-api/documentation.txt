@@ -1,0 +1,12 @@
+Random by Genre
+- get artist popularity least and most
+  scale in 10 (ex: 10-20, 21-30)
+- get artist tracks on genre and popularity around that area (market ID)
+
+random by artist
+- 10 top popular tracks
+- randomize
+
+random
+- get by genre 70%
+- get by artist 30%
