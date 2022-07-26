@@ -15,10 +15,16 @@ export class AppComponent {
     private playlist: PlaylistService
   ) {}
   artistList() {
-    this.tracks.randomTracks();
+    this.tracks.randomTracks(this.tracks.artistId);
     // this.service
     //   .getQuery('me/top/artists?time_range=medium_term&limit=10&offset=5')
     //   .subscribe((resp) => console.log(resp));
+  }
+  getRelatedTracks() {
+    this.tracks.randomTracks(this.tracks.relatedartistId);
+  }
+  getRelated() {
+    this.tracks.getRelated();
   }
   toplist() {
     this.tracks.topList();
