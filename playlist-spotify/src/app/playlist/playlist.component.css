@@ -1,0 +1,9 @@
+body {
+  width: 100%;
+}
+.container {
+  display: grid;
+  justify-content: center;
+  height: 100vh;
+  align-content: center;
+}

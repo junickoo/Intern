@@ -9,7 +9,18 @@ import { GeneralRecomendationComponent } from './general-recomendation/general-r
 import { HomepageComponent } from './homepage/homepage.component';
 import { PlaylistComponent } from './playlist/playlist.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { trigger } from '@angular/animations';
 
+const routes: Routes = [
+  {
+    path: '',
+    component: HomepageComponent,
+  },
+  {
+    path: '**',
+    component: PlaylistComponent,
+  },
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,16 +34,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule.forRoot([
-      {
-        path: '',
-        component: PlaylistComponent,
-      },
-      {
-        path: 'playlist',
-        component: HomepageComponent,
-      },
-    ]),
+    RouterModule.forRoot(routes),
   ],
   providers: [PlaylistComponent, HomepageComponent],
   bootstrap: [AppComponent],

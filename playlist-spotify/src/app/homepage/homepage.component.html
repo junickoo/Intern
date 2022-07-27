@@ -1,0 +1,21 @@
+<body>
+  <div class="container text-center">
+    <h1>Concerto</h1>
+    <p>Playlist Generator</p>
+    <a
+      [href]="
+        this.AUTH_ENDPOINT +
+        '?client_id=' +
+        this.CLIENT_ID +
+        '&scope=' +
+        scopes +
+        '&redirect_uri=' +
+        this.REDIRECT_URI +
+        '&response_type=' +
+        this.RESPONSE_TYPE
+      "
+      class="btn my-auto"
+      >Login with Spotify</a
+    >
+  </div>
+</body>
