@@ -1,0 +1,761 @@
+2022-08-09 14:08:48 INFO  excel:53 - : 0 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-09 14:08:49 INFO  excel:68 - file read : assign petugas
+2022-08-09 14:08:49 INFO  excel:179 - [post] request assign opr : [{data=0001 0011 03 22 076}, {data=Angel}, {data=898889899}]
+2022-08-09 14:08:49 INFO  excel:190 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 03 22 076","name_opr":"Angel","nip_opr":"898889899"}
+2022-08-09 14:08:49 INFO  excel:195 - 200
+2022-08-09 14:08:49 INFO  excel:196 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"sucess.","english":"sucess."},"error_code":"SIM-ERR-00"}}
+2022-08-09 14:08:49 INFO  excel:179 - [post] request assign opr : [{data=0001 0011 03 22 079}, {data=Angel}, {data=898889899}]
+2022-08-09 14:08:49 INFO  excel:190 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 03 22 079","name_opr":"Angel","nip_opr":"898889899"}
+2022-08-09 14:08:49 INFO  excel:195 - 200
+2022-08-09 14:08:49 INFO  excel:196 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"sucess.","english":"sucess."},"error_code":"SIM-ERR-00"}}
+2022-08-09 14:08:49 INFO  excel:179 - [post] request assign opr : [{data=0001 0011 03 22 078}, {data=Angel}, {data=898889899}]
+2022-08-09 14:08:49 INFO  excel:190 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 03 22 078","name_opr":"Angel","nip_opr":"898889899"}
+2022-08-09 14:08:49 INFO  excel:195 - 200
+2022-08-09 14:08:49 INFO  excel:196 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"sucess.","english":"sucess."},"error_code":"SIM-ERR-00"}}
+2022-08-09 14:08:49 INFO  excel:179 - [post] request assign opr : [{data=0001 0011 03 22 077}, {data=Angel}, {data=898889899}]
+2022-08-09 14:08:49 INFO  excel:190 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 03 22 077","name_opr":"Angel","nip_opr":"898889899"}
+2022-08-09 14:08:50 INFO  excel:195 - 200
+2022-08-09 14:08:50 INFO  excel:196 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"sucess.","english":"sucess."},"error_code":"SIM-ERR-00"}}
+2022-08-09 14:08:50 INFO  excel:53 - : 1 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-09 14:08:50 INFO  excel:73 - file read : laporan harian
+2022-08-09 14:08:50 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 080}, {data=Penyimpanan}, {data=19-07-2022  07:00:00}, {data=21231242}, {data=1}]
+2022-08-09 14:08:50 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 080","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:00","handover_no":"21231242","archive_status":"1"}
+2022-08-09 14:08:50 INFO  excel:230 - 404
+2022-08-09 14:08:50 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-09 14:08:50 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 081}, {data=Penyimpanan}, {data=19-07-2022  07:00:00}, {data=21231242}, {data=1}]
+2022-08-09 14:08:50 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 081","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:00","handover_no":"21231242","archive_status":"1"}
+2022-08-09 14:08:50 INFO  excel:230 - 404
+2022-08-09 14:08:50 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-09 14:08:50 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 082}, {data=Penyimpanan}, {data=19-07-2022  07:00:01}, {data=21231242}, {data=1}]
+2022-08-09 14:08:50 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 082","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:01","handover_no":"21231242","archive_status":"1"}
+2022-08-09 14:08:50 INFO  excel:230 - 404
+2022-08-09 14:08:50 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-09 14:08:50 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 083}, {data=Penyimpanan}, {data=19-07-2022  07:00:02}, {data=21231242}, {data=1}]
+2022-08-09 14:08:50 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 083","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:02","handover_no":"21231242","archive_status":"1"}
+2022-08-09 14:08:51 INFO  excel:230 - 404
+2022-08-09 14:08:51 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-09 14:08:51 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 084}, {data=Penyimpanan}, {data=19-07-2022  07:00:03}, {data=21231242}, {data=1}]
+2022-08-09 14:08:51 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 084","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:03","handover_no":"21231242","archive_status":"1"}
+2022-08-09 14:08:51 INFO  excel:230 - 404
+2022-08-09 14:08:51 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-09 14:08:51 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 085}, {data=Penyimpanan}, {data=19-07-2022  07:00:04}, {data=21231242}, {data=1}]
+2022-08-09 14:08:51 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 085","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:04","handover_no":"21231242","archive_status":"1"}
+2022-08-09 14:08:51 INFO  excel:230 - 404
+2022-08-09 14:08:51 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-09 14:08:51 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 086}, {data=Penyimpanan}, {data=19-07-2022  07:00:05}, {data=21231242}, {data=1}]
+2022-08-09 14:08:51 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 086","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:05","handover_no":"21231242","archive_status":"1"}
+2022-08-09 14:08:51 INFO  excel:230 - 404
+2022-08-09 14:08:51 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-09 14:08:51 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 087}, {data=Penyimpanan}, {data=19-07-2022  07:00:06}, {data=21231242}, {data=1}]
+2022-08-09 14:08:51 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 087","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:06","handover_no":"21231242","archive_status":"1"}
+2022-08-09 14:08:52 INFO  excel:230 - 404
+2022-08-09 14:08:52 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-09 14:08:52 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Penyimpanan}, {data=19-07-2022  07:00:07}, {data=21231242}, {data=1}]
+2022-08-09 14:08:52 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-09 14:08:52 INFO  excel:230 - 404
+2022-08-09 14:08:52 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:40:03 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:40:05 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:40:05 INFO  excel:156 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:40:05 INFO  excel:167 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:40:05 INFO  excel:172 - status : 404
+2022-08-16 15:40:05 INFO  excel:173 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:40:05 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:40:06 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:40:06 INFO  excel:181 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:40:06 INFO  excel:192 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:40:06 INFO  excel:197 - 404
+2022-08-16 15:40:06 INFO  excel:198 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:40:06 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:40:06 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:40:06 INFO  excel:205 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:40:06 INFO  excel:227 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:40:08 INFO  excel:232 - 404
+2022-08-16 15:40:08 INFO  excel:233 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:40:08 ERROR excel:278 - not hit api data not found
+2022-08-16 15:40:08 ERROR excel:278 - not hit api data not found
+2022-08-16 15:40:08 ERROR excel:278 - not hit api data not found
+2022-08-16 15:40:08 ERROR excel:278 - not hit api data not found
+2022-08-16 15:40:08 ERROR excel:278 - not hit api data not found
+2022-08-16 15:40:08 ERROR excel:278 - not hit api data not found
+2022-08-16 15:40:08 ERROR excel:278 - not hit api data not found
+2022-08-16 15:40:08 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:40:08 INFO  excel:55 - : 4 [~$4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:40:08 ERROR excel:86 - C:\Users\U546591\Rayhan\Email\~$4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx (The process cannot access the file because it is being used by another process)
+2022-08-16 15:41:01 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:41:01 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:41:01 INFO  excel:156 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:41:02 INFO  excel:167 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:41:02 INFO  excel:172 - status : 404
+2022-08-16 15:41:02 INFO  excel:173 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:41:02 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:41:02 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:41:02 INFO  excel:181 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:41:02 INFO  excel:192 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:41:02 INFO  excel:197 - 404
+2022-08-16 15:41:02 INFO  excel:198 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:41:02 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:41:03 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:41:03 INFO  excel:205 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:41:03 INFO  excel:227 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:41:03 INFO  excel:232 - 404
+2022-08-16 15:41:03 INFO  excel:233 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:41:03 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:03 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:03 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:03 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:03 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:03 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:03 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:03 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:41:37 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:41:38 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:41:38 INFO  excel:156 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:41:38 INFO  excel:167 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:41:39 INFO  excel:172 - status : 404
+2022-08-16 15:41:39 INFO  excel:173 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:41:39 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:41:39 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:41:39 INFO  excel:181 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:41:39 INFO  excel:192 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:41:39 INFO  excel:197 - 404
+2022-08-16 15:41:39 INFO  excel:198 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:41:39 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:41:39 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:41:39 INFO  excel:205 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:41:39 INFO  excel:227 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:41:39 INFO  excel:232 - 404
+2022-08-16 15:41:39 INFO  excel:233 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:41:39 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:39 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:39 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:39 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:39 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:39 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:39 ERROR excel:278 - not hit api data not found
+2022-08-16 15:41:39 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:43:38 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:43:39 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:43:39 INFO  excel:156 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:43:39 INFO  excel:167 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:43:39 INFO  excel:172 - status : 404
+2022-08-16 15:43:39 INFO  excel:173 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:43:39 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:43:39 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:43:39 INFO  excel:181 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:43:39 INFO  excel:192 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:43:40 INFO  excel:197 - 404
+2022-08-16 15:43:40 INFO  excel:198 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:43:40 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:43:40 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:43:40 INFO  excel:205 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:43:40 INFO  excel:227 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:43:40 INFO  excel:232 - 404
+2022-08-16 15:43:40 INFO  excel:233 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:43:40 ERROR excel:279 - not hit api data not found
+2022-08-16 15:43:40 ERROR excel:279 - not hit api data not found
+2022-08-16 15:43:40 ERROR excel:279 - not hit api data not found
+2022-08-16 15:43:40 ERROR excel:279 - not hit api data not found
+2022-08-16 15:43:40 ERROR excel:279 - not hit api data not found
+2022-08-16 15:43:40 ERROR excel:279 - not hit api data not found
+2022-08-16 15:43:40 ERROR excel:279 - not hit api data not found
+2022-08-16 15:43:40 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:44:04 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:44:05 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:44:05 INFO  excel:157 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:44:05 INFO  excel:168 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:44:06 INFO  excel:173 - status : 404
+2022-08-16 15:44:06 INFO  excel:174 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:44:06 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:44:06 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:44:06 INFO  excel:182 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:44:06 INFO  excel:193 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:44:08 INFO  excel:198 - 404
+2022-08-16 15:44:08 INFO  excel:199 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:44:08 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:44:08 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:44:08 INFO  excel:206 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:44:08 INFO  excel:228 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:44:08 INFO  excel:233 - 404
+2022-08-16 15:44:08 INFO  excel:234 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:44:08 ERROR excel:280 - not hit api data not found
+2022-08-16 15:44:08 ERROR excel:280 - not hit api data not found
+2022-08-16 15:44:08 ERROR excel:280 - not hit api data not found
+2022-08-16 15:44:08 ERROR excel:280 - not hit api data not found
+2022-08-16 15:44:08 ERROR excel:280 - not hit api data not found
+2022-08-16 15:44:08 ERROR excel:280 - not hit api data not found
+2022-08-16 15:44:08 ERROR excel:280 - not hit api data not found
+2022-08-16 15:44:08 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:45:15 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:45:16 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:45:16 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:45:16 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:45:17 INFO  excel:178 - status : 404
+2022-08-16 15:45:17 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:45:17 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:45:17 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:45:17 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:45:17 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:45:17 INFO  excel:203 - 404
+2022-08-16 15:45:17 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:45:17 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:45:17 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:45:17 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:45:17 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:45:17 INFO  excel:238 - 404
+2022-08-16 15:45:17 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:45:17 ERROR excel:285 - not hit api data not found
+2022-08-16 15:45:17 ERROR excel:285 - not hit api data not found
+2022-08-16 15:45:17 ERROR excel:285 - not hit api data not found
+2022-08-16 15:45:17 ERROR excel:285 - not hit api data not found
+2022-08-16 15:45:17 ERROR excel:285 - not hit api data not found
+2022-08-16 15:45:17 ERROR excel:285 - not hit api data not found
+2022-08-16 15:45:17 ERROR excel:285 - not hit api data not found
+2022-08-16 15:45:17 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:45:17 INFO  excel:80 - file read : permanent out
+2022-08-16 15:45:17 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:45:17 INFO  excel:270 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 101","flow_status":"44794"}
+2022-08-16 15:45:17 INFO  excel:275 - 404
+2022-08-16 15:45:17 INFO  excel:276 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:47:09 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:47:10 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:47:10 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:47:10 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:47:11 INFO  excel:178 - status : 404
+2022-08-16 15:47:11 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:47:11 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:47:11 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:47:11 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:47:11 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:47:11 INFO  excel:203 - 404
+2022-08-16 15:47:11 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:47:11 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:47:11 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:47:11 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:47:11 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:47:12 INFO  excel:238 - 404
+2022-08-16 15:47:12 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:47:12 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:12 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:12 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:12 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:12 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:12 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:12 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:12 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:47:12 INFO  excel:80 - file read : permanent out
+2022-08-16 15:47:12 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:47:12 INFO  excel:271 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 101","flow_status":"44794"}
+2022-08-16 15:47:12 INFO  excel:276 - 404
+2022-08-16 15:47:12 INFO  excel:277 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:47:43 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:47:44 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:47:44 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:47:44 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:47:44 INFO  excel:178 - status : 404
+2022-08-16 15:47:44 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:47:44 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:47:44 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:47:44 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:47:44 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:47:45 INFO  excel:203 - 404
+2022-08-16 15:47:45 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:47:45 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:47:45 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:47:45 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:47:45 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:47:45 INFO  excel:238 - 404
+2022-08-16 15:47:45 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:47:45 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:45 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:45 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:45 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:45 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:45 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:45 ERROR excel:286 - not hit api data not found
+2022-08-16 15:47:45 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:47:45 INFO  excel:80 - file read : permanent out
+2022-08-16 15:47:45 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:48:08 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:48:08 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:48:08 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:48:08 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:48:09 INFO  excel:178 - status : 404
+2022-08-16 15:48:09 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:48:09 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:48:09 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:48:09 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:48:09 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:48:09 INFO  excel:203 - 404
+2022-08-16 15:48:09 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:48:09 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:48:09 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:48:09 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:48:09 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:48:10 INFO  excel:238 - 404
+2022-08-16 15:48:10 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:48:10 ERROR excel:286 - not hit api data not found
+2022-08-16 15:48:10 ERROR excel:286 - not hit api data not found
+2022-08-16 15:48:10 ERROR excel:286 - not hit api data not found
+2022-08-16 15:48:10 ERROR excel:286 - not hit api data not found
+2022-08-16 15:48:10 ERROR excel:286 - not hit api data not found
+2022-08-16 15:48:10 ERROR excel:286 - not hit api data not found
+2022-08-16 15:48:10 ERROR excel:286 - not hit api data not found
+2022-08-16 15:48:10 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:48:10 INFO  excel:80 - file read : permanent out
+2022-08-16 15:48:10 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:48:10 INFO  excel:271 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 101","tanggal":"44794"}
+2022-08-16 15:48:10 INFO  excel:276 - 404
+2022-08-16 15:48:10 INFO  excel:277 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:48:59 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:49:00 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:49:00 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:49:00 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:49:01 INFO  excel:178 - status : 404
+2022-08-16 15:49:01 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:49:01 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:49:01 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:49:01 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:49:01 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:49:01 INFO  excel:203 - 404
+2022-08-16 15:49:01 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:49:01 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:49:01 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:49:01 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:49:01 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:49:02 INFO  excel:238 - 404
+2022-08-16 15:49:02 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:49:02 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:02 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:02 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:02 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:02 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:02 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:02 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:02 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:49:02 INFO  excel:80 - file read : permanent out
+2022-08-16 15:49:02 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:49:02 INFO  excel:271 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 101","tanggal":"44794"}
+2022-08-16 15:49:02 ERROR excel:282 - org.apache.http.conn.HttpHostConnectException: Connect to localhost:8080 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information
+2022-08-16 15:49:47 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:49:48 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:49:48 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:49:48 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:49:48 INFO  excel:178 - status : 404
+2022-08-16 15:49:48 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:49:48 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:49:48 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:49:48 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:49:48 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:49:49 INFO  excel:203 - 404
+2022-08-16 15:49:49 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:49:49 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:49:49 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:49:49 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:49:49 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:49:49 INFO  excel:238 - 404
+2022-08-16 15:49:49 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:49:49 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:49 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:49 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:49 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:49 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:49 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:49 ERROR excel:287 - not hit api data not found
+2022-08-16 15:49:49 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:49:49 INFO  excel:80 - file read : permanent out
+2022-08-16 15:49:49 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:49:49 INFO  excel:271 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 101","tanggal":"44794"}
+2022-08-16 15:49:49 INFO  excel:276 - 405
+2022-08-16 15:49:49 INFO  excel:277 - {"path":"/simar/permOut","error":"Method Not Allowed","timestamp":"2022-08-16T08:49:49.541+00:00","status":405}
+2022-08-16 15:50:15 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:50:15 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:50:15 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:50:16 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:50:16 INFO  excel:178 - status : 404
+2022-08-16 15:50:16 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:50:16 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:50:16 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:50:16 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:50:16 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:50:16 INFO  excel:203 - 404
+2022-08-16 15:50:16 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:50:16 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:50:17 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:50:17 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:50:17 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:50:17 INFO  excel:238 - 404
+2022-08-16 15:50:17 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:50:17 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:17 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:17 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:17 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:17 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:17 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:17 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:17 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:50:17 INFO  excel:80 - file read : permanent out
+2022-08-16 15:50:17 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:50:17 INFO  excel:271 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 101","tanggal":"44794"}
+2022-08-16 15:50:17 INFO  excel:276 - 405
+2022-08-16 15:50:17 INFO  excel:277 - {"path":"/simar/permOut","error":"Method Not Allowed","timestamp":"2022-08-16T08:50:17.273+00:00","status":405}
+2022-08-16 15:50:32 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:50:33 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:50:33 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:50:33 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:50:34 INFO  excel:178 - status : 404
+2022-08-16 15:50:34 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:50:34 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:50:34 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:50:34 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:50:34 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:50:34 INFO  excel:203 - 404
+2022-08-16 15:50:34 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:50:34 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:50:34 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:50:34 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:50:34 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:50:34 INFO  excel:238 - 404
+2022-08-16 15:50:34 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:50:34 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:34 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:34 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:34 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:34 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:34 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:34 ERROR excel:288 - not hit api data not found
+2022-08-16 15:50:34 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:50:34 INFO  excel:80 - file read : permanent out
+2022-08-16 15:50:34 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:50:34 INFO  excel:271 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 101","tanggal":"44794"}
+2022-08-16 15:50:35 INFO  excel:276 - 200
+2022-08-16 15:50:35 INFO  excel:277 - {"STATUS":404,"ERRMSGEN":"Data not found","ERRMSGID":"Data tidak di temukan"}
+2022-08-16 15:52:57 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:52:58 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:52:58 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:52:58 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:52:58 INFO  excel:178 - status : 404
+2022-08-16 15:52:58 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:52:58 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:52:58 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:52:58 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:52:58 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:52:59 INFO  excel:203 - 404
+2022-08-16 15:52:59 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:52:59 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:52:59 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:52:59 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:52:59 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:52:59 INFO  excel:238 - 404
+2022-08-16 15:52:59 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:52:59 ERROR excel:288 - not hit api data not found
+2022-08-16 15:52:59 ERROR excel:288 - not hit api data not found
+2022-08-16 15:52:59 ERROR excel:288 - not hit api data not found
+2022-08-16 15:52:59 ERROR excel:288 - not hit api data not found
+2022-08-16 15:52:59 ERROR excel:288 - not hit api data not found
+2022-08-16 15:52:59 ERROR excel:288 - not hit api data not found
+2022-08-16 15:52:59 ERROR excel:288 - not hit api data not found
+2022-08-16 15:52:59 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:52:59 INFO  excel:80 - file read : permanent out
+2022-08-16 15:52:59 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:52:59 INFO  excel:271 - Body : {"boxNum":{"data":"0001 0011 22 02 101"}}
+2022-08-16 15:52:59 INFO  excel:276 - 400
+2022-08-16 15:52:59 INFO  excel:277 - {"path":"/simar/permOut","error":"Bad Request","timestamp":"2022-08-16T08:52:59.360+00:00","status":400}
+2022-08-16 15:53:30 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:53:31 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:53:31 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:53:31 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:53:32 INFO  excel:178 - status : 404
+2022-08-16 15:53:32 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:53:32 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:53:32 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:53:32 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:53:32 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:53:32 INFO  excel:203 - 404
+2022-08-16 15:53:32 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:53:32 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:53:32 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:53:32 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:53:32 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:53:32 INFO  excel:238 - 404
+2022-08-16 15:53:32 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:53:32 ERROR excel:289 - not hit api data not found
+2022-08-16 15:53:32 ERROR excel:289 - not hit api data not found
+2022-08-16 15:53:32 ERROR excel:289 - not hit api data not found
+2022-08-16 15:53:32 ERROR excel:289 - not hit api data not found
+2022-08-16 15:53:32 ERROR excel:289 - not hit api data not found
+2022-08-16 15:53:32 ERROR excel:289 - not hit api data not found
+2022-08-16 15:53:32 ERROR excel:289 - not hit api data not found
+2022-08-16 15:53:32 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:53:32 INFO  excel:80 - file read : permanent out
+2022-08-16 15:53:32 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:53:32 INFO  excel:272 - Body : {"boxNum":{"data":"0001 0011 22 02 101"}}
+2022-08-16 15:53:32 INFO  excel:277 - 400
+2022-08-16 15:53:32 INFO  excel:278 - {"path":"/simar/permOut","error":"Bad Request","timestamp":"2022-08-16T08:53:32.767+00:00","status":400}
+2022-08-16 15:54:19 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:54:20 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:54:20 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:54:20 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:54:21 INFO  excel:178 - status : 404
+2022-08-16 15:54:21 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:54:21 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:54:21 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:54:21 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:54:21 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:54:21 INFO  excel:203 - 404
+2022-08-16 15:54:21 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:54:21 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:54:21 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:54:21 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:54:21 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:54:21 INFO  excel:238 - 404
+2022-08-16 15:54:21 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:54:21 ERROR excel:290 - not hit api data not found
+2022-08-16 15:54:21 ERROR excel:290 - not hit api data not found
+2022-08-16 15:54:21 ERROR excel:290 - not hit api data not found
+2022-08-16 15:54:21 ERROR excel:290 - not hit api data not found
+2022-08-16 15:54:21 ERROR excel:290 - not hit api data not found
+2022-08-16 15:54:21 ERROR excel:290 - not hit api data not found
+2022-08-16 15:54:21 ERROR excel:290 - not hit api data not found
+2022-08-16 15:54:21 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:54:21 INFO  excel:80 - file read : permanent out
+2022-08-16 15:54:21 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:54:21 INFO  excel:273 - Body : {"boxNum":"0001 0011 22 02 101"}
+2022-08-16 15:54:21 INFO  excel:278 - 200
+2022-08-16 15:54:21 INFO  excel:279 - {"STATUS":404,"ERRMSGEN":"Data not found","ERRMSGID":"Data tidak di temukan"}
+2022-08-16 15:56:08 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:56:09 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:56:09 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:56:09 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:56:10 INFO  excel:178 - status : 404
+2022-08-16 15:56:10 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:56:10 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:56:10 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:56:10 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:56:10 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:56:10 INFO  excel:203 - 404
+2022-08-16 15:56:10 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:56:10 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:56:10 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:56:10 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:56:10 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:56:10 INFO  excel:238 - 404
+2022-08-16 15:56:10 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:56:10 ERROR excel:290 - not hit api data not found
+2022-08-16 15:56:10 ERROR excel:290 - not hit api data not found
+2022-08-16 15:56:10 ERROR excel:290 - not hit api data not found
+2022-08-16 15:56:10 ERROR excel:290 - not hit api data not found
+2022-08-16 15:56:10 ERROR excel:290 - not hit api data not found
+2022-08-16 15:56:10 ERROR excel:290 - not hit api data not found
+2022-08-16 15:56:10 ERROR excel:290 - not hit api data not found
+2022-08-16 15:56:10 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:56:10 INFO  excel:80 - file read : permanent out
+2022-08-16 15:56:10 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:56:10 INFO  excel:273 - Body : {"boxNum":"0001 0011 22 02 101"}
+2022-08-16 15:56:10 INFO  excel:278 - 200
+2022-08-16 15:56:10 INFO  excel:279 - {"STATUS":200,"ERRMSGEN":"Data has not been PERMANENT_OUT","ERRMSGID":"Data tidak di PERMANENT_OUT"}
+2022-08-16 15:57:20 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:57:21 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:57:21 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:57:21 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:57:21 INFO  excel:178 - status : 404
+2022-08-16 15:57:21 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:57:21 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:57:21 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:57:21 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:57:21 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:57:22 INFO  excel:203 - 404
+2022-08-16 15:57:22 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:57:22 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:57:22 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:57:22 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:57:22 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:57:22 INFO  excel:238 - 404
+2022-08-16 15:57:22 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:57:22 ERROR excel:267 - not hit api data not found
+2022-08-16 15:57:22 ERROR excel:267 - not hit api data not found
+2022-08-16 15:57:22 ERROR excel:267 - not hit api data not found
+2022-08-16 15:57:22 ERROR excel:267 - not hit api data not found
+2022-08-16 15:57:22 ERROR excel:267 - not hit api data not found
+2022-08-16 15:57:22 ERROR excel:267 - not hit api data not found
+2022-08-16 15:57:22 ERROR excel:267 - not hit api data not found
+2022-08-16 15:57:22 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:57:22 INFO  excel:80 - file read : permanent out
+2022-08-16 15:57:22 INFO  excel:247 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44794}]
+2022-08-16 15:57:22 INFO  excel:252 - Body : {"boxNum":"0001 0011 22 02 101"}
+2022-08-16 15:57:22 INFO  excel:257 - 200
+2022-08-16 15:57:22 INFO  excel:258 - {"STATUS":200,"ERRMSGEN":"Data has not been PERMANENT_OUT","ERRMSGID":"Data tidak di PERMANENT_OUT"}
+2022-08-16 15:58:46 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:58:47 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 15:58:47 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 15:58:47 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 15:58:47 INFO  excel:178 - status : 404
+2022-08-16 15:58:47 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:58:47 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 15:58:47 INFO  excel:70 - file read : assign petugas
+2022-08-16 15:58:47 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 15:58:47 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 15:58:47 INFO  excel:203 - 404
+2022-08-16 15:58:47 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:58:47 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 15:58:47 INFO  excel:75 - file read : laporan harian
+2022-08-16 15:58:47 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 15:58:47 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 15:58:47 INFO  excel:238 - 404
+2022-08-16 15:58:47 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 15:58:47 ERROR excel:267 - not hit api data not found
+2022-08-16 15:58:47 ERROR excel:267 - not hit api data not found
+2022-08-16 15:58:47 ERROR excel:267 - not hit api data not found
+2022-08-16 15:58:47 ERROR excel:267 - not hit api data not found
+2022-08-16 15:58:47 ERROR excel:267 - not hit api data not found
+2022-08-16 15:58:47 ERROR excel:267 - not hit api data not found
+2022-08-16 15:58:47 ERROR excel:267 - not hit api data not found
+2022-08-16 15:58:47 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 15:58:47 INFO  excel:80 - file read : permanent out
+2022-08-16 16:02:31 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 16:02:32 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 16:02:32 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 16:02:32 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 16:02:32 INFO  excel:178 - status : 404
+2022-08-16 16:02:32 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:02:32 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 16:02:32 INFO  excel:70 - file read : assign petugas
+2022-08-16 16:02:32 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 16:02:32 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 16:02:33 INFO  excel:203 - 404
+2022-08-16 16:02:33 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:02:33 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 16:02:33 INFO  excel:75 - file read : laporan harian
+2022-08-16 16:02:33 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 16:02:33 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 16:02:33 INFO  excel:238 - 404
+2022-08-16 16:02:33 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:02:33 ERROR excel:269 - not hit api data not found
+2022-08-16 16:02:33 ERROR excel:269 - not hit api data not found
+2022-08-16 16:02:33 ERROR excel:269 - not hit api data not found
+2022-08-16 16:02:33 ERROR excel:269 - not hit api data not found
+2022-08-16 16:02:33 ERROR excel:269 - not hit api data not found
+2022-08-16 16:02:33 ERROR excel:269 - not hit api data not found
+2022-08-16 16:02:33 ERROR excel:269 - not hit api data not found
+2022-08-16 16:02:33 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 16:02:33 INFO  excel:80 - file read : permanent out
+2022-08-16 16:03:12 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 16:03:13 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 16:03:13 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 16:03:13 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 16:03:14 INFO  excel:178 - status : 404
+2022-08-16 16:03:14 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:03:14 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 16:03:14 INFO  excel:70 - file read : assign petugas
+2022-08-16 16:03:14 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 16:03:14 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 16:03:14 INFO  excel:203 - 404
+2022-08-16 16:03:14 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:03:14 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 16:03:14 INFO  excel:75 - file read : laporan harian
+2022-08-16 16:03:14 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 16:03:14 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 16:03:15 INFO  excel:238 - 404
+2022-08-16 16:03:15 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:03:15 ERROR excel:269 - not hit api data not found
+2022-08-16 16:03:15 ERROR excel:269 - not hit api data not found
+2022-08-16 16:03:15 ERROR excel:269 - not hit api data not found
+2022-08-16 16:03:15 ERROR excel:269 - not hit api data not found
+2022-08-16 16:03:15 ERROR excel:269 - not hit api data not found
+2022-08-16 16:03:15 ERROR excel:269 - not hit api data not found
+2022-08-16 16:03:15 ERROR excel:269 - not hit api data not found
+2022-08-16 16:03:15 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 16:03:15 INFO  excel:80 - file read : permanent out
+2022-08-16 16:05:15 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 16:05:16 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 16:05:16 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 16:05:16 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 16:05:17 INFO  excel:178 - status : 404
+2022-08-16 16:05:17 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:05:17 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 16:05:17 INFO  excel:70 - file read : assign petugas
+2022-08-16 16:05:17 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 16:05:17 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 16:05:17 INFO  excel:203 - 404
+2022-08-16 16:05:17 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:05:17 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 16:05:17 INFO  excel:75 - file read : laporan harian
+2022-08-16 16:05:17 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 16:05:17 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 16:05:17 INFO  excel:238 - 404
+2022-08-16 16:05:17 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:05:17 ERROR excel:269 - not hit api data not found
+2022-08-16 16:05:17 ERROR excel:269 - not hit api data not found
+2022-08-16 16:05:17 ERROR excel:269 - not hit api data not found
+2022-08-16 16:05:17 ERROR excel:269 - not hit api data not found
+2022-08-16 16:05:17 ERROR excel:269 - not hit api data not found
+2022-08-16 16:05:17 ERROR excel:269 - not hit api data not found
+2022-08-16 16:05:17 ERROR excel:269 - not hit api data not found
+2022-08-16 16:05:17 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 16:05:17 INFO  excel:80 - file read : permanent out
+2022-08-16 16:05:17 INFO  excel:248 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44789}]
+2022-08-16 16:05:17 INFO  excel:253 - Body : {"boxNum":"0001 0011 22 02 101"}
+2022-08-16 16:05:17 INFO  excel:259 - 200
+2022-08-16 16:05:17 INFO  excel:260 - {"STATUS":200,"ERRMSGEN":"Data has not been PERMANENT_OUT","ERRMSGID":"Data tidak di PERMANENT_OUT"}
+2022-08-16 16:07:07 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 16:07:08 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 16:07:08 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 16:07:08 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 16:07:08 INFO  excel:178 - status : 404
+2022-08-16 16:07:08 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:07:08 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 16:07:08 INFO  excel:70 - file read : assign petugas
+2022-08-16 16:07:08 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 16:07:08 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 16:07:09 INFO  excel:203 - 404
+2022-08-16 16:07:09 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:07:09 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 16:07:09 INFO  excel:75 - file read : laporan harian
+2022-08-16 16:07:09 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 16:07:09 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 16:07:09 INFO  excel:238 - 404
+2022-08-16 16:07:09 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:07:09 ERROR excel:269 - not hit api data not found
+2022-08-16 16:07:09 ERROR excel:269 - not hit api data not found
+2022-08-16 16:07:09 ERROR excel:269 - not hit api data not found
+2022-08-16 16:07:09 ERROR excel:269 - not hit api data not found
+2022-08-16 16:07:09 ERROR excel:269 - not hit api data not found
+2022-08-16 16:07:09 ERROR excel:269 - not hit api data not found
+2022-08-16 16:07:09 ERROR excel:269 - not hit api data not found
+2022-08-16 16:07:09 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 16:07:09 INFO  excel:80 - file read : permanent out
+2022-08-16 16:07:09 INFO  excel:248 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44789}]
+2022-08-16 16:07:09 INFO  excel:253 - Body : {"boxNum":"0001 0011 22 02 101"}
+2022-08-16 16:07:09 INFO  excel:259 - 200
+2022-08-16 16:07:09 INFO  excel:260 - {"STATUS":200,"ERRMSGEN":"Data has not been PERMANENT_OUT","ERRMSGID":"Data tidak di PERMANENT_OUT"}
+2022-08-16 16:10:26 INFO  excel:55 - : 0 [1#_ttupang@dti.co.id#_Konfirmasi Pengajuan_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 16:10:27 INFO  excel:65 - file read : konfirmasi pengajuan
+2022-08-16 16:10:27 INFO  excel:162 - [post] request konfirmasi : [{data=0001 0011 22 02 088}, {data=10 08 2022}]
+2022-08-16 16:10:27 INFO  excel:173 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","pickup_date":"10 08 2022"}
+2022-08-16 16:10:27 INFO  excel:178 - status : 404
+2022-08-16 16:10:27 INFO  excel:179 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:10:27 INFO  excel:55 - : 1 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-16 16:10:27 INFO  excel:70 - file read : assign petugas
+2022-08-16 16:10:27 INFO  excel:187 - [post] request assign opr : [{data=0001 0011 22 02 088}, {data=RayhanJ22}, {data=898889899}]
+2022-08-16 16:10:27 INFO  excel:198 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","name_opr":"RayhanJ22","nip_opr":"898889899"}
+2022-08-16 16:10:27 INFO  excel:203 - 404
+2022-08-16 16:10:27 INFO  excel:204 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:10:27 INFO  excel:55 - : 2 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-16 16:10:27 INFO  excel:75 - file read : laporan harian
+2022-08-16 16:10:27 INFO  excel:211 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Pengembalian}, {data=10-08-2022  08:00:07}, {data=21231242}, {data=1}]
+2022-08-16 16:10:27 INFO  excel:233 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Pengembalian","realisasion_date":"10-08-2022  08:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-16 16:10:27 INFO  excel:238 - 404
+2022-08-16 16:10:27 INFO  excel:239 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-16 16:10:27 ERROR excel:269 - not hit api data not found
+2022-08-16 16:10:27 ERROR excel:269 - not hit api data not found
+2022-08-16 16:10:27 ERROR excel:269 - not hit api data not found
+2022-08-16 16:10:27 ERROR excel:269 - not hit api data not found
+2022-08-16 16:10:27 ERROR excel:269 - not hit api data not found
+2022-08-16 16:10:27 ERROR excel:269 - not hit api data not found
+2022-08-16 16:10:27 ERROR excel:269 - not hit api data not found
+2022-08-16 16:10:27 INFO  excel:55 - : 3 [4#_ttupang@dti.co.id#_Permanent Out_PT MMI Pasuruan_16082022.xlsx]
+2022-08-16 16:10:28 INFO  excel:80 - file read : permanent out
+2022-08-16 16:10:28 INFO  excel:248 - [put] permanent out : [{data=0001 0011 22 02 101}, {data=44789}]
+2022-08-16 16:10:28 INFO  excel:253 - Body : {"boxNum":"0001 0011 22 02 101"}
+2022-08-16 16:10:28 INFO  excel:259 - 200
+2022-08-16 16:10:28 INFO  excel:260 - {"STATUS":200,"ERRMSGEN":"Data has been PERMANENT_OUT","ERRMSGID":"Data telah di PERMANENT_OUT"}

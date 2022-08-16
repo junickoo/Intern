@@ -1,0 +1,112 @@
+2022-08-03 15:23:30 INFO  excel:53 - : 0 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-03 15:23:31 INFO  excel:68 - file read : assign petugas
+2022-08-03 15:23:31 INFO  excel:179 - [post] request assign opr : [{data=0001 0011 03 22 076}, {data=Angel}, {data=898889899}]
+2022-08-03 15:23:31 INFO  excel:190 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 03 22 076","name_opr":"Angel","nip_opr":"898889899"}
+2022-08-03 15:23:31 INFO  excel:195 - 200
+2022-08-03 15:23:31 INFO  excel:196 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"sucess.","english":"sucess."},"error_code":"SIM-ERR-00"}}
+2022-08-03 15:23:31 INFO  excel:179 - [post] request assign opr : [{data=0001 0011 03 22 079}, {data=Angel}, {data=898889899}]
+2022-08-03 15:23:31 INFO  excel:190 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 03 22 079","name_opr":"Angel","nip_opr":"898889899"}
+2022-08-03 15:23:32 INFO  excel:195 - 200
+2022-08-03 15:23:32 INFO  excel:196 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"sucess.","english":"sucess."},"error_code":"SIM-ERR-00"}}
+2022-08-03 15:23:32 INFO  excel:179 - [post] request assign opr : [{data=0001 0011 03 22 078}, {data=Angel}, {data=898889899}]
+2022-08-03 15:23:32 INFO  excel:190 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 03 22 078","name_opr":"Angel","nip_opr":"898889899"}
+2022-08-03 15:23:32 INFO  excel:195 - 200
+2022-08-03 15:23:32 INFO  excel:196 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"sucess.","english":"sucess."},"error_code":"SIM-ERR-00"}}
+2022-08-03 15:23:32 INFO  excel:179 - [post] request assign opr : [{data=0001 0011 03 22 077}, {data=Angel}, {data=898889899}]
+2022-08-03 15:23:32 INFO  excel:190 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 03 22 077","name_opr":"Angel","nip_opr":"898889899"}
+2022-08-03 15:23:32 INFO  excel:195 - 200
+2022-08-03 15:23:32 INFO  excel:196 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"sucess.","english":"sucess."},"error_code":"SIM-ERR-00"}}
+2022-08-03 15:23:32 INFO  excel:53 - : 1 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-03 15:23:32 INFO  excel:73 - file read : laporan harian
+2022-08-03 15:23:32 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 080}, {data=Penyimpanan}, {data=19-07-2022  07:00:00}, {data=21231242}, {data=1}]
+2022-08-03 15:23:32 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 080","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:00","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:23:32 INFO  excel:230 - 404
+2022-08-03 15:23:32 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:23:32 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 081}, {data=Penyimpanan}, {data=19-07-2022  07:00:00}, {data=21231242}, {data=1}]
+2022-08-03 15:23:32 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 081","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:00","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:23:32 INFO  excel:230 - 404
+2022-08-03 15:23:32 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:23:32 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 082}, {data=Penyimpanan}, {data=19-07-2022  07:00:01}, {data=21231242}, {data=1}]
+2022-08-03 15:23:32 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 082","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:01","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:23:33 INFO  excel:230 - 404
+2022-08-03 15:23:33 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:23:33 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 083}, {data=Penyimpanan}, {data=19-07-2022  07:00:02}, {data=21231242}, {data=1}]
+2022-08-03 15:23:33 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 083","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:02","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:23:33 INFO  excel:230 - 404
+2022-08-03 15:23:33 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:23:33 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 084}, {data=Penyimpanan}, {data=19-07-2022  07:00:03}, {data=21231242}, {data=1}]
+2022-08-03 15:23:33 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 084","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:03","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:23:33 INFO  excel:230 - 404
+2022-08-03 15:23:33 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:23:33 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 085}, {data=Penyimpanan}, {data=19-07-2022  07:00:04}, {data=21231242}, {data=1}]
+2022-08-03 15:23:33 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 085","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:04","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:23:33 INFO  excel:230 - 404
+2022-08-03 15:23:33 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:23:33 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 086}, {data=Penyimpanan}, {data=19-07-2022  07:00:05}, {data=21231242}, {data=1}]
+2022-08-03 15:23:33 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 086","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:05","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:23:33 INFO  excel:230 - 404
+2022-08-03 15:23:33 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:23:33 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 087}, {data=Penyimpanan}, {data=19-07-2022  07:00:06}, {data=21231242}, {data=1}]
+2022-08-03 15:23:33 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 087","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:06","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:23:34 INFO  excel:230 - 404
+2022-08-03 15:23:34 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:23:34 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Penyimpanan}, {data=19-07-2022  07:00:07}, {data=21231242}, {data=1}]
+2022-08-03 15:23:34 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:23:34 INFO  excel:230 - 404
+2022-08-03 15:23:34 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:31:49 INFO  excel:53 - : 0 [2#_ttupang@dti.co.id#_Assign Petugas_PT MMI Pasuruan_15072022.xlsx]
+2022-08-03 15:31:49 INFO  excel:68 - file read : assign petugas
+2022-08-03 15:31:49 INFO  excel:179 - [post] request assign opr : [{data=0001 0011 03 22 076}, {data=Angel}, {data=898889899}]
+2022-08-03 15:31:49 INFO  excel:190 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 03 22 076","name_opr":"Angel","nip_opr":"898889899"}
+2022-08-03 15:31:49 INFO  excel:195 - 200
+2022-08-03 15:31:49 INFO  excel:196 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"sucess.","english":"sucess."},"error_code":"SIM-ERR-00"}}
+2022-08-03 15:31:49 INFO  excel:179 - [post] request assign opr : [{data=0001 0011 03 22 079}, {data=Angel}, {data=898889899}]
+2022-08-03 15:31:49 INFO  excel:190 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 03 22 079","name_opr":"Angel","nip_opr":"898889899"}
+2022-08-03 15:31:49 INFO  excel:195 - 200
+2022-08-03 15:31:49 INFO  excel:196 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"sucess.","english":"sucess."},"error_code":"SIM-ERR-00"}}
+2022-08-03 15:31:49 INFO  excel:179 - [post] request assign opr : [{data=0001 0011 03 22 078}, {data=Angel}, {data=898889899}]
+2022-08-03 15:31:49 INFO  excel:190 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 03 22 078","name_opr":"Angel","nip_opr":"898889899"}
+2022-08-03 15:31:50 INFO  excel:195 - 200
+2022-08-03 15:31:50 INFO  excel:196 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"sucess.","english":"sucess."},"error_code":"SIM-ERR-00"}}
+2022-08-03 15:31:50 INFO  excel:179 - [post] request assign opr : [{data=0001 0011 03 22 077}, {data=Angel}, {data=898889899}]
+2022-08-03 15:31:50 INFO  excel:190 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 03 22 077","name_opr":"Angel","nip_opr":"898889899"}
+2022-08-03 15:31:50 INFO  excel:195 - 200
+2022-08-03 15:31:50 INFO  excel:196 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"sucess.","english":"sucess."},"error_code":"SIM-ERR-00"}}
+2022-08-03 15:31:50 INFO  excel:53 - : 1 [3#_ttupang@dti.co.id#_Laporan Harian_PT MMI Pasuruan_18072022.xlsx]
+2022-08-03 15:31:50 INFO  excel:73 - file read : laporan harian
+2022-08-03 15:31:50 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 080}, {data=Penyimpanan}, {data=19-07-2022  07:00:00}, {data=21231242}, {data=1}]
+2022-08-03 15:31:50 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 080","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:00","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:31:50 INFO  excel:230 - 404
+2022-08-03 15:31:50 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:31:50 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 081}, {data=Penyimpanan}, {data=19-07-2022  07:00:00}, {data=21231242}, {data=1}]
+2022-08-03 15:31:50 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 081","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:00","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:31:50 INFO  excel:230 - 404
+2022-08-03 15:31:50 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:31:50 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 082}, {data=Penyimpanan}, {data=19-07-2022  07:00:01}, {data=21231242}, {data=1}]
+2022-08-03 15:31:50 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 082","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:01","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:31:50 INFO  excel:230 - 404
+2022-08-03 15:31:50 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:31:50 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 083}, {data=Penyimpanan}, {data=19-07-2022  07:00:02}, {data=21231242}, {data=1}]
+2022-08-03 15:31:50 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 083","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:02","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:31:51 INFO  excel:230 - 404
+2022-08-03 15:31:51 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:31:51 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 084}, {data=Penyimpanan}, {data=19-07-2022  07:00:03}, {data=21231242}, {data=1}]
+2022-08-03 15:31:51 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 084","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:03","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:31:51 INFO  excel:230 - 404
+2022-08-03 15:31:51 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:31:51 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 085}, {data=Penyimpanan}, {data=19-07-2022  07:00:04}, {data=21231242}, {data=1}]
+2022-08-03 15:31:51 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 085","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:04","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:31:51 INFO  excel:230 - 404
+2022-08-03 15:31:51 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:31:51 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 086}, {data=Penyimpanan}, {data=19-07-2022  07:00:05}, {data=21231242}, {data=1}]
+2022-08-03 15:31:51 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 086","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:05","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:31:51 INFO  excel:230 - 404
+2022-08-03 15:31:51 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:31:51 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 087}, {data=Penyimpanan}, {data=19-07-2022  07:00:06}, {data=21231242}, {data=1}]
+2022-08-03 15:31:51 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 087","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:06","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:31:51 INFO  excel:230 - 404
+2022-08-03 15:31:51 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
+2022-08-03 15:31:51 INFO  excel:203 - [post] request Daily report : [{data=0001 0011 22 02 088}, {data=Penyimpanan}, {data=19-07-2022  07:00:07}, {data=21231242}, {data=1}]
+2022-08-03 15:31:51 INFO  excel:225 - Body : {"email_vendor":"ttupang@dti.co.id","no_box":"0001 0011 22 02 088","flow_status":"Penyimpanan","realisasion_date":"19-07-2022  07:00:07","handover_no":"21231242","archive_status":"1"}
+2022-08-03 15:31:52 INFO  excel:230 - 404
+2022-08-03 15:31:52 INFO  excel:231 - {"output_schema":null,"error_schema":{"error_message":{"indonesian":"Data tidak ditemukan.","english":"Data not found."},"error_code":"SIM-ERR-09"}}
